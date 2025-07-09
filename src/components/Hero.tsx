@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="bg-white py-24 text-center max-w-7xl mx-auto px-6">
@@ -7,12 +9,12 @@ export default function Hero() {
       <p className="text-lg text-gray-dark max-w-3xl mx-auto mb-8">
         Energieeffiziente Lösungen für Heizung und Kühlung Ihres Zuhauses.
       </p>
-      <a
+      <Link
         href="#contact"
         className="inline-block bg-accent hover:bg-[#d87e00] text-white font-semibold rounded-lg px-8 py-3 transition"
       >
         Beratung anfordern
-      </a>
+      </Link>
     </section>
   );
 }
