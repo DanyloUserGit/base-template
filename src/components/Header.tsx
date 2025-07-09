@@ -31,6 +31,11 @@ export default function Header() {
                 Kontakt
               </Link>
             </li>
+            <li>
+              <Link href="/article" className="hover:text-accent transition">
+                Artikel
+              </Link>
+            </li>
           </ul>
         </nav>
 
@@ -75,6 +80,15 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
             >
               Kontakt
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/article"
+              className="hover:text-accent transition"
+              onClick={() => setMenuOpen(false)}
+            >
+              Artikle
             </Link>
           </li>
         </ul>
