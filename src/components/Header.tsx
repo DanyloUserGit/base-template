@@ -17,17 +17,17 @@ export default function Header() {
         <nav className="hidden md:block">
           <ul className="flex space-x-6 text-gray-dark font-semibold">
             <li>
-              <Link href="#services" className="hover:text-accent transition">
+              <Link href="/services" className="hover:text-accent transition">
                 Dienstleistungen
               </Link>
             </li>
             <li>
-              <Link href="#about" className="hover:text-accent transition">
+              <Link href="/about" className="hover:text-accent transition">
                 Über uns
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="hover:text-accent transition">
+              <Link href="/contact" className="hover:text-accent transition">
                 Kontakt
               </Link>
             </li>
@@ -52,7 +52,7 @@ export default function Header() {
         <ul className="flex flex-col space-y-4 text-gray-dark font-semibold bg-white rounded-xl shadow-md p-6">
           <li>
             <Link
-              href="#services"
+              href="/services"
               className="hover:text-accent transition"
               onClick={() => setMenuOpen(false)}
             >
@@ -61,7 +61,7 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href="#about"
+              href="/about"
               className="hover:text-accent transition"
               onClick={() => setMenuOpen(false)}
             >
@@ -70,7 +70,7 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href="#contact"
+              href="/contact"
               className="hover:text-accent transition"
               onClick={() => setMenuOpen(false)}
             >
