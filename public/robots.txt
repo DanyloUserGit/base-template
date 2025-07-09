@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://base-template-peach.vercel.app
+Host: https://base-template-1qo1.vercel.app/
 
 # Sitemaps
-Sitemap: https://base-template-peach.vercel.app/sitemap.xml
+Sitemap: https://base-template-1qo1.vercel.app/sitemap.xml

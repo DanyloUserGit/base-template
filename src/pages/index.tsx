@@ -11,11 +11,11 @@ export default function Home() {
       <Seo
         title="Installation von Wärmepumpen in Berlin — HeatPumpPro"
         description="Professionelle Installation von Wärmepumpen in Berlin. Energieeffiziente Lösungen für Zuhause und Gewerbe."
-        canonicalUrl="https://base-template-peach.vercel.app"
+        canonicalUrl="https://base-template-1qo1.vercel.app/"
         businessName="HeatPumpPro Berlin"
         city="Berlin"
         phone="+49 12 3456789"
-        websiteUrl="https://base-template-peach.vercel.app"
+        websiteUrl="https://base-template-1qo1.vercel.app/"
       />
 
       <Header />
